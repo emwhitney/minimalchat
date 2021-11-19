@@ -1,0 +1,69 @@
+//text
+.join-header, input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.join-header {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h5 {
+    margin-bottom: 40px;
+    font-weight: normal;
+    color:#696969;
+    font-size: 18px;
+}
+
+.emily-tag {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    color:#696969;
+}
+
+a {
+    color: #007f5c;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #007f5c;
+    text-decoration: none;
+}
+
+//containers and positioning
+.outer-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #007f5c;
+}
+
+.join-container {
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+@media (max-width: 500px) {
+    .join-container {
+        width: 80%;
+    }
+}
+
+input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    background-color: #007f5c !important;
+    border-color: #007f5c !important;
+}
